@@ -1,0 +1,13 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+
+# Compiled binary addons (https://nodejs.org/api/addons.html)
+build
+
+# Dependency directories
+node_modules/
+package-lock.json
