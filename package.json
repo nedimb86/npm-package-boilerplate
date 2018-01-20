@@ -1,0 +1,36 @@
+{
+  "name": "npm-package-boilerplate",
+  "version": "1.0.0",
+  "description": "Simple npm package starter with basic scripts",
+  "main": "build/index.js",
+  "scripts": {
+    "dev": "watch 'npm run build' src",
+    "dev:windows": "watch \"npm run build\" src",
+    "build": "babel  src -d buils",
+    "test": "jest src/tests",
+    "test:watch": "npm test -- --watch",
+    "prepublish": "npm run build",
+    "release": "np"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nedimb86/npm-package-boilerplate.git"
+  },
+  "keywords": [
+    "npm",
+    "package",
+    "boilerplate"
+  ],
+  "author": "Nedim Becirovic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nedimb86/npm-package-boilerplate/issues"
+  },
+  "homepage": "https://github.com/nedimb86/npm-package-boilerplate#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "jest": "^22.1.4",
+    "watcher": "0.0.5"
+  }
+}
