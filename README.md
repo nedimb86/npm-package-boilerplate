@@ -1,4 +1,4 @@
-NPM package boileerplate
+NPM package boilerplate
 
 1. Clone the repository
 2. Modify package.json to your liking
